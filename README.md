@@ -1,5 +1,5 @@
 # Quickstart-nodejs
-This code shows how to interact Node.js application with InterSytems IRIS. It is required for the Node.js quickstart which can be found here: [https://learning.intersystems.com/course/view.php?name=Nodejs%20QS](https://learning.intersystems.com/course/view.php?name=Nodejs%20QS)
+This code shows how to interact Node.js application with InterSytems IRIS. It is required for the Node.js quickstart which can be found here: [https://learning.intersystems.com/course/view.php?name=Node.js%20QS](https://learning.intersystems.com/course/view.php?name=Node.js%20QS)
 
 # Contents:
 All the sample code located inside the **Solutions** folder.
@@ -14,13 +14,20 @@ All the sample code located inside the **Solutions** folder.
 # How to run:
 
 1. Clone the repo and open it in your IDE.
-2. `cd Solutions`
-3. To install necessary modules:
+2. In your IDE:
 
-    * `npm install --save intersystems-iris-native` 
-    * `npm install readline-sync`
-    * `npm install file-system`
+    * Open `connections.config` file and modify the *IP* and *password* to be the correct values for your InterSystems IRIS instance. Although *port* and *username* are most likely the defaults, you should verify that the values are correct.
 
-4. To run a file, type: `node filename.js`
+3. In the Terminal of your IDE:
+    * Navigate to the sample code directory:
+        * `cd Solutions`
 
-Detailed instructions are included on the QuickStart page: [https://learning.intersystems.com/course/view.php?name=Nodejs%20QS](https://learning.intersystems.com/course/view.php?name=Nodejs%20QS)
+    * Install the necessary modules:
+
+        * `npm install --save intersystems-iris-native` 
+        * `npm install readline-sync`
+        * `npm install file-system`
+
+4. To run a file, type: `node filename.js`, in which, replace `filename.js` with the name of the file you want to run.
+
+Detailed instructions are included on the QuickStart page: [https://learning.intersystems.com/course/view.php?name=Node.js%20QS](https://learning.intersystems.com/course/view.php?name=Node.js%20QS)
