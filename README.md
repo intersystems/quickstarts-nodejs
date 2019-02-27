@@ -16,7 +16,7 @@ All the sample code located inside the **Solutions** folder.
 1.  Verify you have an [<span class="urlformat">instance of InterSystems IRIS</span>](https://learning.intersystems.com/course/view.php?name=Get%20InterSystems%20IRIS), and an IDE that supports Node.js (such as **Visual Studio Code**). If you are using AWS, Azure, or GCP, that you have followed the steps to [change the password for InterSystems IRIS](https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=ACLOUD#ACLOUD_interact).
 
 2.  If you are using AWS, GCP, or Microsoft Azure, load the sample stock data into InterSystems IRIS:  
-    `$ iris load http://github.com/intersystems/``Samples-Stock-Data`  
+    `$ iris load http://github.com/intersystems/Samples-Stock-Data`  
 
     If you are using InterSystems Labs, the sample stock data is already loaded. You can skip to the next step.
     
