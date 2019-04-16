@@ -93,8 +93,8 @@ function StoreStockData(irisNative){
     var start = Date.now()/1000;
 
     // Loop through list of stock and store natively
-    for (var j = 1; j < lines.length; j++){
-        irisNative.set(lines[j], "^nyse", j+1);
+    for (var j = 1; j < array.length; j++){
+        irisNative.set(array[j], "^nyse", j+1);
     }
 
     // Get time consuming
