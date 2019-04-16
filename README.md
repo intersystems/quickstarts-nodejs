@@ -8,6 +8,7 @@ All the sample code located inside the **Solutions** folder.
 * `nodeplaystocksTask2.js`: Store stock data directly to InterSystems IRIS Data Platform using a custom structure.
 * `nodeplaystocksTask3.js`: Retrieve stock data directly from InterSystems IRIS
 * `nodeplaystocksTask4.js`: Generate trade data with methods from InterSystems IRIS
+* `nodeplaystocksTask5.js`: Call routine directly to print the version of InterSystems IRIS
 * `connections.config`: contain connection details, including `ip`, `port`, `namespace`, `username`, `password`.
 * `all_stocks.csv`: contain 1000 stock data from New York Stock Exchange
 
