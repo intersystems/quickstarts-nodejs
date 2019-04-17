@@ -135,14 +135,15 @@ function PopulateData(irisNative, object_count)
             tempDate = "2018-01-01";
             tempAmount = irisNative.classMethodValue("%PopulateUtils", "Currency");
             tempName = 	irisNative.classMethodValue("%PopulateUtils", "String") + 
-                                    irisNative.classMethodValue("%PopulateUtils", "String") + 
-                                    irisNative.classMethodValue("%PopulateUtils", "String");
+                        irisNative.classMethodValue("%PopulateUtils", "String") + 
+                        irisNative.classMethodValue("%PopulateUtils", "String");
             tempTrader = irisNative.classMethodValue("%PopulateUtils", "Name");
             tempShares = Math.floor(Math.random() * 10);
             console.log("New trade: " + tempName + ", " + tempDate + ", " + tempAmount + ", " + tempShares + ", " + tempTrader);
         }
     }
 
+// Call routine directly to print the version of InterSystems IRIS.    
 function callRoutines(irisNative){
     console.log("on InterSystems IRIS version: " + irisNative.function("StocksUtil", "PrintVersion"))
 }
