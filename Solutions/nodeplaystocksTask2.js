@@ -47,7 +47,8 @@ function main()
         console.log("2. Store stock data");
         console.log("3. View stock data");
         console.log("4. Generate Trades");
-        console.log("5. Quit");
+        console.log("5. Call routines");
+        console.log("6. Quit");
         var selection = readline.question("What would you like to do? ")
         switch(selection){
             case "1":
@@ -63,6 +64,9 @@ function main()
                 console.log("TO DO: Generate trades");
                 break;
             case "5":
+                console.log("TO DO: Call routines");
+                break;
+            case "6":
                 console.log("Exited");
                 return;
             default:
@@ -94,7 +98,7 @@ function StoreStockData(irisNative){
 
     // Loop through list of stock and store natively
     for (var j = 1; j < array.length; j++){
-        irisNative.set(array[j], "^nyse", j+1);
+        irisNative.set(array[j], "^nyse", j);
     }
 
     // Get time consuming

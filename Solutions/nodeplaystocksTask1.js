@@ -47,22 +47,26 @@ function main()
         console.log("2. Store stock data");
         console.log("3. View stock data");
         console.log("4. Generate Trades");
-        console.log("5. Quit");
+        console.log("5. Call routines");
+        console.log("6. Quit");
         var selection = readline.question("What would you like to do? ")
         switch(selection){
             case "1":
                 SetTestGlobal(iris)
                 break;
             case "2":
-                console.log("TO DO: View stock data");
+                console.log("TO DO: Store stock data");
                 break;
             case "3":
-                console.log("TO DO: Generate trades");
+                console.log("TO DO: View stock data");
                 break;
             case "4":
-                console.log("TO DO: Call routines");
+                console.log("TO DO: Generate trades");
                 break;
             case "5":
+                console.log("TO DO: Call routines");
+                break;
+            case "6":
                 console.log("Exited");
                 return;
             default:
