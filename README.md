@@ -2,8 +2,8 @@
 This code shows how to use a Node.js application with an InterSytems server. It is used in the online exercise [<span class="urlformat">Node.js quickstart</span>](https://learning.intersystems.com/course/view.php?name=Node.js%20QS).
 
 # Contents
-* `connections.config`: contain connection details, including `ip`, `port`, `namespace`, `username`, `password`.
-* `all_stocks.csv`: contain 1000 stock data from New York Stock Exchange
+* `connections.config`: contains connection details, including `ip`, `port`, `namespace`, `username`, `password`.
+* `all_stocks.csv`: contains 1000 stock data from New York Stock Exchange
 
 * `nodeplaystocksTask1.js`: Store test data directly to InterSystems server
 * `nodeplaystocksTask2.js`: Store stock data directly to InterSystems server using a custom structure.
